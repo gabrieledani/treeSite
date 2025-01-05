@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Árvore Genealógica da Família Trentin</title>
+
 <style>
 .tree, .tree ul {
   list-style: none;
@@ -51,9 +52,10 @@
   margin-left: 140px;  /* Indent the third level, and so on... */
 }
 </style>
-</head>
-<body>
 
+</head>
+
+<body>
 <div class="tree">
   <li>
     <span class="caret">Carlina Trentin, (*19/10/1903 e + 20/03/1974), casou-se em Nova Trento em 28/08/1924(religioso) e 24/09/1924 (civil), com Mário Ferrari, (*26/05/1901 + 19/07/1952).</span>
@@ -187,7 +189,6 @@
 
 <script>
 var toggler = document.getElementsByClassName("caret");
-
 for (var i = 0; i < toggler.length; i++) {
   var parent = toggler[i].parentElement;
   var nestedList = parent.querySelector(".nested");
